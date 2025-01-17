@@ -1,9 +1,0 @@
-{
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.defaultFoldingRangeProvider": null
-  },
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "ms-python.black-formatter",
-  "editor.defaultFoldingRangeProvider": "ms-python.black-formatter"
-}
