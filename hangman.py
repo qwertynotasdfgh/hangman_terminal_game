@@ -13,6 +13,12 @@ def hangman():
         "swift",
         "scala",
         "go",
+        "rust",
+        "typescript",
+        "perl",
+        "r",
+        "haskell",
+        "erlang",
     ]
     word = random.choice(words_list)
     lives = 5
@@ -36,6 +42,11 @@ def hangman():
         print(f"Game over! The word was {word}")
     else:
         print(f"Congratulations! You guessed the word")
+    replay = input("Type Y to play again or E to exit the game: ")
+    if replay.upper() == "Y":
+        hangman()
+    else:
+        print("Thanks for playing!")
 
 
 hangman()
